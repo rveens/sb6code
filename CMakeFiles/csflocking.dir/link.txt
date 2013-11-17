@@ -1,0 +1,1 @@
+/usr/bin/c++    -D_LINUX -g -g    CMakeFiles/csflocking.dir/src/csflocking/csflocking.cpp.o  -o bin/csflocking  -L/home/rick/Documenten/sb6code/lib -rdynamic lib/libsb6.a -lglfw -lGL -lrt -ldl -Wl,-rpath,/home/rick/Documenten/sb6code/lib 

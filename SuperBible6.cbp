@@ -1,0 +1,2727 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SuperBible6" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/rick/Documenten/sb6code" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="A_probeersels">
+         <Option output="/home/rick/Documenten/sb6code/bin/A_probeersels" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 A_probeersels" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="A_probeersels/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/A_probeersels" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 A_probeersels/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alienrain">
+         <Option output="/home/rick/Documenten/sb6code/bin/alienrain" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 alienrain" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alienrain/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/alienrain" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 alienrain/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="basicfbo">
+         <Option output="/home/rick/Documenten/sb6code/bin/basicfbo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 basicfbo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="basicfbo/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/basicfbo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 basicfbo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="blendmatrix">
+         <Option output="/home/rick/Documenten/sb6code/bin/blendmatrix" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 blendmatrix" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="blendmatrix/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/blendmatrix" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 blendmatrix/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="blinnphong">
+         <Option output="/home/rick/Documenten/sb6code/bin/blinnphong" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 blinnphong" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="blinnphong/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/blinnphong" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 blinnphong/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bumpmapping">
+         <Option output="/home/rick/Documenten/sb6code/bin/bumpmapping" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 bumpmapping" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bumpmapping/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/bumpmapping" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 bumpmapping/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clipdistance">
+         <Option output="/home/rick/Documenten/sb6code/bin/clipdistance" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clipdistance" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clipdistance/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/clipdistance" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clipdistance/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="csflocking">
+         <Option output="/home/rick/Documenten/sb6code/bin/csflocking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 csflocking" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="csflocking/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/csflocking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 csflocking/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cubemapenv">
+         <Option output="/home/rick/Documenten/sb6code/bin/cubemapenv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 cubemapenv" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cubemapenv/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/cubemapenv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 cubemapenv/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cubicbezier">
+         <Option output="/home/rick/Documenten/sb6code/bin/cubicbezier" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 cubicbezier" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cubicbezier/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/cubicbezier" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 cubicbezier/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="debug">
+         <Option working_dir="/home/rick/Documenten/sb6code" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 debug" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="deferredshading">
+         <Option output="/home/rick/Documenten/sb6code/bin/deferredshading" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 deferredshading" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="deferredshading/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/deferredshading" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 deferredshading/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="depthclamp">
+         <Option output="/home/rick/Documenten/sb6code/bin/depthclamp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 depthclamp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="depthclamp/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/depthclamp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 depthclamp/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dispmap">
+         <Option output="/home/rick/Documenten/sb6code/bin/dispmap" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 dispmap" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dispmap/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/dispmap" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 dispmap/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dof">
+         <Option output="/home/rick/Documenten/sb6code/bin/dof" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 dof" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dof/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/dof" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 dof/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="envmapsphere">
+         <Option output="/home/rick/Documenten/sb6code/bin/envmapsphere" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 envmapsphere" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="envmapsphere/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/envmapsphere" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 envmapsphere/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="equirectangular">
+         <Option output="/home/rick/Documenten/sb6code/bin/equirectangular" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 equirectangular" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="equirectangular/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/equirectangular" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 equirectangular/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fragcolorfrompos">
+         <Option output="/home/rick/Documenten/sb6code/bin/fragcolorfrompos" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 fragcolorfrompos" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fragcolorfrompos/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/fragcolorfrompos" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 fragcolorfrompos/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fragmentlist">
+         <Option output="/home/rick/Documenten/sb6code/bin/fragmentlist" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 fragmentlist" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fragmentlist/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/fragmentlist" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 fragmentlist/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="grass">
+         <Option output="/home/rick/Documenten/sb6code/bin/grass" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 grass" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="grass/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/grass" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 grass/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gsculling">
+         <Option output="/home/rick/Documenten/sb6code/bin/gsculling" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gsculling" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gsculling/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/gsculling" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gsculling/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gslayered">
+         <Option output="/home/rick/Documenten/sb6code/bin/gslayered" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gslayered" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gslayered/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/gslayered" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gslayered/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gsquads">
+         <Option output="/home/rick/Documenten/sb6code/bin/gsquads" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gsquads" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gsquads/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/gsquads" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gsquads/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gstessellate">
+         <Option output="/home/rick/Documenten/sb6code/bin/gstessellate" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gstessellate" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gstessellate/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/gstessellate" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 gstessellate/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hdrbloom">
+         <Option output="/home/rick/Documenten/sb6code/bin/hdrbloom" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 hdrbloom" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hdrbloom/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/hdrbloom" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 hdrbloom/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hdrexposure">
+         <Option output="/home/rick/Documenten/sb6code/bin/hdrexposure" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 hdrexposure" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hdrexposure/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/hdrexposure" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 hdrexposure/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hdrtonemap">
+         <Option output="/home/rick/Documenten/sb6code/bin/hdrtonemap" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 hdrtonemap" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hdrtonemap/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/hdrtonemap" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 hdrtonemap/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="indexedcube">
+         <Option output="/home/rick/Documenten/sb6code/bin/indexedcube" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 indexedcube" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="indexedcube/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/indexedcube" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 indexedcube/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="instancedattribs">
+         <Option output="/home/rick/Documenten/sb6code/bin/instancedattribs" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 instancedattribs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="instancedattribs/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/instancedattribs" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 instancedattribs/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="julia">
+         <Option output="/home/rick/Documenten/sb6code/bin/julia" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 julia" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="julia/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/julia" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 julia/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ktxview">
+         <Option output="/home/rick/Documenten/sb6code/bin/ktxview" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 ktxview" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ktxview/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/ktxview" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 ktxview/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="linesmooth">
+         <Option output="/home/rick/Documenten/sb6code/bin/linesmooth" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 linesmooth" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="linesmooth/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/linesmooth" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 linesmooth/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="movingtri">
+         <Option output="/home/rick/Documenten/sb6code/bin/movingtri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 movingtri" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="movingtri/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/movingtri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 movingtri/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msaanative">
+         <Option output="/home/rick/Documenten/sb6code/bin/msaanative" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 msaanative" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msaanative/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/msaanative" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 msaanative/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multidrawindirect">
+         <Option output="/home/rick/Documenten/sb6code/bin/multidrawindirect" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multidrawindirect" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multidrawindirect/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/multidrawindirect" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multidrawindirect/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multimaterial">
+         <Option output="/home/rick/Documenten/sb6code/bin/multimaterial" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multimaterial" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multimaterial/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/multimaterial" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multimaterial/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multiscissor">
+         <Option output="/home/rick/Documenten/sb6code/bin/multiscissor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multiscissor" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multiscissor/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/multiscissor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multiscissor/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multiviewport">
+         <Option output="/home/rick/Documenten/sb6code/bin/multiviewport" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multiviewport" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="multiviewport/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/multiviewport" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 multiviewport/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noise">
+         <Option output="/home/rick/Documenten/sb6code/bin/noise" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 noise" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noise/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/noise" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 noise/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noperspective">
+         <Option output="/home/rick/Documenten/sb6code/bin/noperspective" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 noperspective" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noperspective/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/noperspective" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 noperspective/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="normalviewer">
+         <Option output="/home/rick/Documenten/sb6code/bin/normalviewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 normalviewer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="normalviewer/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/normalviewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 normalviewer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="objectexploder">
+         <Option output="/home/rick/Documenten/sb6code/bin/objectexploder" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 objectexploder" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="objectexploder/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/objectexploder" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 objectexploder/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="perf-readpixels">
+         <Option output="/home/rick/Documenten/sb6code/bin/perf-readpixels" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 perf-readpixels" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="perf-readpixels/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/perf-readpixels" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 perf-readpixels/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="perpixelgloss">
+         <Option output="/home/rick/Documenten/sb6code/bin/perpixelgloss" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 perpixelgloss" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="perpixelgloss/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/perpixelgloss" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 perpixelgloss/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="phonglighting">
+         <Option output="/home/rick/Documenten/sb6code/bin/phonglighting" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 phonglighting" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="phonglighting/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/phonglighting" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 phonglighting/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="polygonsmooth">
+         <Option output="/home/rick/Documenten/sb6code/bin/polygonsmooth" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 polygonsmooth" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="polygonsmooth/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/polygonsmooth" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 polygonsmooth/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="prefixsum">
+         <Option output="/home/rick/Documenten/sb6code/bin/prefixsum" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 prefixsum" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="prefixsum/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/prefixsum" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 prefixsum/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="prefixsum2d">
+         <Option output="/home/rick/Documenten/sb6code/bin/prefixsum2d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 prefixsum2d" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="prefixsum2d/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/prefixsum2d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 prefixsum2d/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="programinfo">
+         <Option output="/home/rick/Documenten/sb6code/bin/programinfo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 programinfo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="programinfo/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/programinfo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 programinfo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="raytracer">
+         <Option output="/home/rick/Documenten/sb6code/bin/raytracer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 raytracer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="raytracer/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/raytracer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 raytracer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/rick/Documenten/sb6code" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="release">
+         <Option working_dir="/home/rick/Documenten/sb6code" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 release" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rimlight">
+         <Option output="/home/rick/Documenten/sb6code/bin/rimlight" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 rimlight" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rimlight/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/rimlight" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 rimlight/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sampleshading">
+         <Option output="/home/rick/Documenten/sb6code/bin/sampleshading" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 sampleshading" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sampleshading/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/sampleshading" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 sampleshading/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sb6">
+         <Option output="/home/rick/Documenten/sb6code/lib/libsb6.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 sb6" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sb6/fast">
+         <Option output="/home/rick/Documenten/sb6code/lib/libsb6.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 sb6/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shadowmapping">
+         <Option output="/home/rick/Documenten/sb6code/bin/shadowmapping" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 shadowmapping" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shadowmapping/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/shadowmapping" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 shadowmapping/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shapedpoints">
+         <Option output="/home/rick/Documenten/sb6code/bin/shapedpoints" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 shapedpoints" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shapedpoints/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/shapedpoints" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 shapedpoints/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simpleclear">
+         <Option output="/home/rick/Documenten/sb6code/bin/simpleclear" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 simpleclear" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simpleclear/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/simpleclear" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 simpleclear/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simpletexcoords">
+         <Option output="/home/rick/Documenten/sb6code/bin/simpletexcoords" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 simpletexcoords" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simpletexcoords/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/simpletexcoords" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 simpletexcoords/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simpletexture">
+         <Option output="/home/rick/Documenten/sb6code/bin/simpletexture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 simpletexture" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simpletexture/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/simpletexture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 simpletexture/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="singlepoint">
+         <Option output="/home/rick/Documenten/sb6code/bin/singlepoint" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 singlepoint" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="singlepoint/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/singlepoint" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 singlepoint/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="singletri">
+         <Option output="/home/rick/Documenten/sb6code/bin/singletri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 singletri" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="singletri/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/singletri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 singletri/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sparsetexture">
+         <Option output="/home/rick/Documenten/sb6code/bin/sparsetexture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 sparsetexture" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sparsetexture/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/sparsetexture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 sparsetexture/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="spinnycube">
+         <Option output="/home/rick/Documenten/sb6code/bin/spinnycube" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 spinnycube" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="spinnycube/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/spinnycube" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 spinnycube/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="springmass">
+         <Option output="/home/rick/Documenten/sb6code/bin/springmass" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 springmass" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="springmass/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/springmass" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 springmass/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ssao">
+         <Option output="/home/rick/Documenten/sb6code/bin/ssao" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 ssao" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ssao/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/ssao" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 ssao/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="starfield">
+         <Option output="/home/rick/Documenten/sb6code/bin/starfield" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 starfield" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="starfield/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/starfield" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 starfield/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stereo">
+         <Option output="/home/rick/Documenten/sb6code/bin/stereo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 stereo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stereo/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/stereo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 stereo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="subroutines">
+         <Option output="/home/rick/Documenten/sb6code/bin/subroutines" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 subroutines" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="subroutines/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/subroutines" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 subroutines/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessellatedcube">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessellatedcube" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessellatedcube" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessellatedcube/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessellatedcube" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessellatedcube/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessellatedgstri">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessellatedgstri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessellatedgstri" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessellatedgstri/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessellatedgstri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessellatedgstri/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessellatedtri">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessellatedtri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessellatedtri" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessellatedtri/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessellatedtri" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessellatedtri/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessmodes">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessmodes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessmodes" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tessmodes/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/tessmodes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tessmodes/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tesssubdivmodes">
+         <Option output="/home/rick/Documenten/sb6code/bin/tesssubdivmodes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tesssubdivmodes" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tesssubdivmodes/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/tesssubdivmodes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tesssubdivmodes/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="toonshading">
+         <Option output="/home/rick/Documenten/sb6code/bin/toonshading" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 toonshading" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="toonshading/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/toonshading" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 toonshading/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tunnel">
+         <Option output="/home/rick/Documenten/sb6code/bin/tunnel" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tunnel" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tunnel/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/tunnel" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 tunnel/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wrapmodes">
+         <Option output="/home/rick/Documenten/sb6code/bin/wrapmodes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 wrapmodes" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wrapmodes/fast">
+         <Option output="/home/rick/Documenten/sb6code/bin/wrapmodes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rick/Documenten/sb6code/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/rick/Documenten/sb6code/extern/glfw-2.7.6/include" />
+            <Add directory="/home/rick/Documenten/sb6code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 wrapmodes/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rick/Documenten/sb6code/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/rick/Documenten/sb6code/src/A_probeersels/A_probeersels.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/alienrain/alienrain.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/basicfbo/basicfbo.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/blendmatrix/blendmatrix.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/blinnphong/blinnphong.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/bumpmapping/bumpmapping.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/clipdistance/clipdistance.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/csflocking/csflocking.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/cubemapenv/cubemapenv.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/cubicbezier/cubicbezier.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/deferredshading/deferredshading.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/depthclamp/depthclamp.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/dispmap/dispmap.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/dof/dof.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/envmapsphere/envmapsphere.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/equirectangular/equirectangular.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/fragcolorfrompos/fragcolorfrompos.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/fragmentlist/fragmentlist.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/grass/grass.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/gsculling/gsculling.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/gslayered/gslayered.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/gsquads/gsquads.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/gstessellate/gstessellate.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/hdrbloom/hdrbloom.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/hdrexposure/hdrexposure.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/hdrtonemap/hdrtonemap.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/indexedcube/indexedcube.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/instancedattribs/instancedattribs.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/julia/julia.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/ktxview/ktxview.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/linesmooth/linesmooth.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/movingtri/movingtri.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/msaanative/msaanative.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/multidrawindirect/multidrawindirect.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/multimaterial/multimaterial.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/multiscissor/multiscissor.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/multiviewport/multiviewport.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/noise/noise.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/noperspective/noperspective.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/normalviewer/normalviewer.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/objectexploder/objectexploder.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/perf-readpixels/perf-readpixels.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/perpixelgloss/perpixelgloss.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/phonglighting/phonglighting.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/polygonsmooth/polygonsmooth.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/prefixsum/prefixsum.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/prefixsum2d/prefixsum2d.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/programinfo/programinfo.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/raytracer/raytracer.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/rimlight/rimlight.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/sampleshading/sampleshading.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/sb6/gl3w.c">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/sb6/sb6.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/sb6/sb6ktx.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/sb6/sb6object.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/sb6/sb6shader.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/shadowmapping/shadowmapping.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/shapedpoints/shapedpoints.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/simpleclear/simpleclear.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/simpletexcoords/simpletexcoords.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/simpletexture/simpletexture.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/singlepoint/singlepoint.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/singletri/singletri.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/sparsetexture/sparsetexture.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/spinnycube/spinnycube.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/springmass/springmass.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/ssao/ssao.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/starfield/starfield.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/stereo/stereo.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/subroutines/subroutines.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/tessellatedcube/tessellatedcube.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/tessellatedgstri/tessellatedgstri.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/tessellatedtri/tessellatedtri.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/tessmodes/tessmodes.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/tesssubdivmodes/tesssubdivmodes.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/toonshading/toonshading.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/tunnel/tunnel.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/src/wrapmodes/wrapmodes.cpp">
+      </Unit>
+      <Unit filename="/home/rick/Documenten/sb6code/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

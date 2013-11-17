@@ -1,0 +1,1 @@
+/usr/bin/c++    -D_LINUX -g -g    CMakeFiles/rimlight.dir/src/rimlight/rimlight.cpp.o  -o bin/rimlight  -L/home/rick/Documenten/sb6code/lib -rdynamic lib/libsb6.a -lglfw -lGL -lrt -ldl -Wl,-rpath,/home/rick/Documenten/sb6code/lib 

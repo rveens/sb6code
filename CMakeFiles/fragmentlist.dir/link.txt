@@ -1,0 +1,1 @@
+/usr/bin/c++    -D_LINUX -g -g    CMakeFiles/fragmentlist.dir/src/fragmentlist/fragmentlist.cpp.o  -o bin/fragmentlist  -L/home/rick/Documenten/sb6code/lib -rdynamic lib/libsb6.a -lglfw -lGL -lrt -ldl -Wl,-rpath,/home/rick/Documenten/sb6code/lib 

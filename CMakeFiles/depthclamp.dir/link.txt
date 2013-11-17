@@ -1,0 +1,1 @@
+/usr/bin/c++    -D_LINUX -g -g    CMakeFiles/depthclamp.dir/src/depthclamp/depthclamp.cpp.o  -o bin/depthclamp  -L/home/rick/Documenten/sb6code/lib -rdynamic lib/libsb6.a -lglfw -lGL -lrt -ldl -Wl,-rpath,/home/rick/Documenten/sb6code/lib 

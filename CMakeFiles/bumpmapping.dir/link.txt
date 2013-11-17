@@ -1,0 +1,1 @@
+/usr/bin/c++    -D_LINUX -g -g    CMakeFiles/bumpmapping.dir/src/bumpmapping/bumpmapping.cpp.o  -o bin/bumpmapping  -L/home/rick/Documenten/sb6code/lib -rdynamic lib/libsb6.a -lglfw -lGL -lrt -ldl -Wl,-rpath,/home/rick/Documenten/sb6code/lib 
