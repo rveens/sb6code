@@ -25,7 +25,7 @@ flags = [
 '-isystem',
 '/usr/include',
 '-isystem',
-'/usr/local/include',
+'/usr/include/c++/4.8.1/',
 '-isystem',
 '/home/rick/Documenten/sb6code/include',
 '-DCLANG_COMPLETE_ONLY',
