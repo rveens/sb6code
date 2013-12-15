@@ -679,6 +679,7 @@ extern void glXFreeContextEXT (Display *dpy, GLXContext context);
 #endif /* GLX_GLXEXT_PROTOTYPES */
 typedef Display * ( * PFNGLXGETCURRENTDISPLAYEXTPROC) (void);
 typedef int ( * PFNGLXQUERYCONTEXTINFOEXTPROC) (Display *dpy, GLXContext context, int attribute, int *value);
+typedef XID GLXContextID;
 typedef GLXContextID ( * PFNGLXGETCONTEXTIDEXTPROC) (const GLXContext context);
 typedef GLXContext ( * PFNGLXIMPORTCONTEXTEXTPROC) (Display *dpy, GLXContextID contextID);
 typedef void ( * PFNGLXFREECONTEXTEXTPROC) (Display *dpy, GLXContext context);

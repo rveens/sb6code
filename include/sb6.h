@@ -65,21 +65,37 @@
 #define GLFW_NO_GLU 1
 #define GLFW_INCLUDE_GLCOREARB 1
 
+
+
+//#ifndef __COUNTER__//qt creator cannot parse this
+//    //#define GL_GLEXT_PROTOTYPES
+//#include "GL/gl3w.h"
+//    #include "GL/glfw.h"
+//    #include "GL/gl.h"
+//#else
+//    #include "GL/gl3w.h"
+//    #include "GL/glfw.h"
+//#endif
+
 /* let op, dit is een hack: */
 #ifdef CLANG_COMPLETE_ONLY
     #define GL_GLEXT_PROTOTYPES
-    #include "GL/glfw.h"
     #include <GL/gl.h>
+    #include "GL/glfw.h"
 #else
-	/* dit stond er: */
-	#include "GL/gl3w.h"
-	#include "GL/glfw.h"
+    /* dit stond er: */
+    #include "GL/gl3w.h"
+    #include "GL/glfw.h"
 #endif
 
 
 #include "sb6ext.h"
 
 #include <string.h>
+#include <fstream>
+#include <iostream>
+
+using std::string;
 
 namespace sb6
 {
@@ -178,6 +194,56 @@ public:
 #ifdef _DEBUG
         info.flags.debug = 1;
 #endif
+    }
+
+    // mijn eigen functies
+
+    string loadShaderFile(string location)
+    {
+	    // de string array
+	    string totalString;
+	    // de input file stream
+	    std::ifstream ifs(location.c_str());
+
+	    while (ifs.good()) {
+		    string s;
+		    getline(ifs, s);
+		    totalString.append(s + "\n");
+	    }
+
+	    return totalString;
+    }
+
+    void loadShaderSource(const char *s, GLuint shaderObject)
+    {
+	    string vs_source1 = loadShaderFile(s);
+
+	    GLchar const *shader_source = vs_source1.c_str();
+	    GLint const shader_length = vs_source1.size();
+	    glShaderSource(shaderObject, 1, &shader_source, &shader_length);
+    }
+
+    void print_log(GLuint object)
+    {
+	    GLint log_length = 0;
+	    if (glIsShader(object))
+		    glGetShaderiv(object, GL_INFO_LOG_LENGTH, &log_length);
+	    else if (glIsProgram(object))
+		    glGetProgramiv(object, GL_INFO_LOG_LENGTH, &log_length);
+	    else {
+		    fprintf(stderr, "printlog: Not a shader or a program\n");
+		    return;
+	    }
+
+	    char* log = new char[log_length];
+
+	    if (glIsShader(object))
+		    glGetShaderInfoLog(object, log_length, NULL, log);
+	    else if (glIsProgram(object))
+		    glGetProgramInfoLog(object, log_length, NULL, log);
+
+	    fprintf(stderr, "%s", log);
+	    delete[] log;
     }
 
     virtual void startup()
