@@ -5,9 +5,9 @@
 #include <string>
 #include <sstream>
 
-#include "vmath.h"
-#include "GL/gl3w.h"
-#include "sb6ktx.h"
+#include <vmath.h>
+#include <GL/gl3w.h>
+#include <sb6ktx.h>
 
 using std::vector;
 using std::ifstream;
@@ -148,7 +148,7 @@ public:
 		while (getline(in, line)) {
 			if (line.substr(0, 2) == "v ") {
 				istringstream s(line.substr(2));
-				vmath::vec4 v; s >> v; s >> v[2]; s >> v[1]; v[3] = 1.0f;
+				vmath::vec4 v; s >> v[0]; s >> v[2]; s >> v[1]; v[3] = 1.0f;
 				vertices.push_back(v);
 			} else if (line.substr(0, 2) == "f ") {
 				istringstream s(line.substr(2));
