@@ -5,7 +5,7 @@ uniform mat4 proj_matrix;
 
 // "Offset" is an output vertex attribute
 layout (location = 0) in vec4 position;
-layout (location = 4) in vec2 tc;
+layout (location = 1) in vec2 tc;
 
 // interface block
 out VS_OUT

@@ -14,6 +14,6 @@ uniform sampler2D s;
 
 void main(void)
 {
-	color = texture(s, gl_FragCoord.xy / textureSize(s, 0));
-	/* color = texture(s, fs_in.tc * vec2(3.0, 1.0)); */
+	/* color = texture(s, gl_FragCoord.xy / textureSize(s, 0)); */
+	color = texture(s, fs_in.tc * vec2(3.0, 1.0));
 }

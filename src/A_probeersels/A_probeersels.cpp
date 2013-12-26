@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <stdlib.h>
 
 #include <vmath.h>
 #include <GL/gl3w.h>
@@ -15,6 +16,7 @@ using std::cerr;
 using std::endl;
 using std::ios;
 using std::string;
+using std::getline;
 using std::istringstream;
 
 class probeersel_app : public sb6::application
@@ -22,9 +24,10 @@ class probeersel_app : public sb6::application
 private:
 	// Gluint = pointerwaarde
 	GLuint		program;		// het opengl programma
-	GLuint		vao; 			// vertex array object
+	GLuint		vao; 			// vertex array object GLuint		vertices_buffer; 	// buffer voor vertices
 	GLuint		vertices_buffer; 	// buffer voor vertices
-	GLuint		elements_buffer; 	// buffer voor elements
+	GLuint		vertex_indices_buffer; 	// buffer voor elements
+	GLuint		texCoordinates_buffer; 	// buffer voor elements
 	GLuint 		texture;		// buffer voor de texture
 
 	/* locaties van uniforms */
@@ -115,7 +118,7 @@ public:
 	virtual void startup()
 	{
 		program = compileProgram();
-		
+
 		// locatie van uniform variabelen in shaders worden opgevraagd.
 		mv_location = glGetUniformLocation(program, "mv_matrix");
 		proj_location = glGetUniformLocation(program, "proj_matrix");
@@ -130,37 +133,92 @@ public:
 		/* glFrontFace(GL_CCW); */
 
 		glEnable(GL_DEPTH_TEST);
-		glDepthFunc(GL_LEQUAL);
+		glDepthFunc(GL_LESS);
 
 		// polygon mode, 
 		/* glPolygonMode(GL_FRONT_AND_BACK, GL_LINE); */
 		/* glPointSize(5.0f); */
+
+		// texture wrap
+		glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT );
+		glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT );
+
+		/* wat opties voor texture filtering */
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+
 	}
 
 	void loadOBJ(const char *filename, vector<vmath::vec4> &vertices,
-			vector<GLushort> &elements)
+						vector<vmath::vec3> &vertexNormals,
+						vector<vmath::vec2> &texCoordinates,
+						vector<GLushort> &vertex_indices)
 	{
-		ifstream in(filename, ios::in);
-		if (!in) { cerr << "Cannot open " << filename << endl; };
-
 		string line;
+		vector<GLushort> texCoordinates_indices, normal_indices;
+
+ 		ifstream in(filename, ios::in);
+ 		if (!in) { cerr << "Cannot open " << filename << endl; };
 
 		while (getline(in, line)) {
 			if (line.substr(0, 2) == "v ") {
+				/* vertices */
 				istringstream s(line.substr(2));
-				vmath::vec4 v; s >> v[0]; s >> v[2]; s >> v[1]; v[3] = 1.0f;
+				vmath::vec4 v;
+				s >> v[0]; s >> v[1]; s >> v[2]; v[3] = 1.0f;
 				vertices.push_back(v);
-			} else if (line.substr(0, 2) == "f ") {
+			} else if ( line.substr(0, 3) == "vt ") {
+				/* texture coordinates */
 				istringstream s(line.substr(2));
-				GLushort a, b, c;
-				s >> a; s >> b; s >> c;
-				a--; b--; c--;
-				elements.push_back(a); elements.push_back(b); elements.push_back(c);
-			} else if (line[0] == '#') { }
-			else { }
+				vmath::vec2 tc;
+				s >> tc[0]; s >> tc[1];
+				texCoordinates.push_back(tc);
+			} else if (line.substr(0, 3) == "vn ") {
+				/* vertex normals */ 
+				istringstream s(line.substr(2));
+				vmath::vec3 vn;
+				s >> vn[0]; s >> vn[1]; s >> vn[2];
+				vertexNormals.push_back(vn);
+			} else if (line.substr(0, 2) == "f ") { // todo letten op '/'-es
+				/* faces, 
+				 * f <vertexNr>/<textureCoord>/<normal> */ 
+				istringstream s(line.substr(2));
+
+				// read through x/x/x pairs, which are seperated by spaces
+				string facePair;
+				for (int i = 0; i < 3; ++i) { // 3 is our max 
+					getline(s, facePair, ' ');
+					istringstream facePairss(facePair);
+
+					string vertexNr, texCoordnr, normalnr;
+					getline(facePairss, vertexNr, '/');
+					vertex_indices.push_back(atol(vertexNr.c_str()));
+
+					getline(facePairss, texCoordnr, '/');
+					texCoordinates_indices.push_back(atol(texCoordnr.c_str()));
+
+					getline(facePairss, normalnr, '/');
+					normal_indices.push_back(atol(normalnr.c_str()));
+				}
+			} else if (line.substr(0, 6) == "usemtl") {
+				/* usemtl, not implemented yet */
+			} else if (line.substr(0, 6) == "mtllib") {
+				/* mtllib, not implemented yet */
+			} else if (line[0] == '#') { } // comments, ignore these ofc
 		}
 
-		// TODO normals
+		// drawelements fix! vertex indices in .OBJ starten vanaf 1, OpenGL start vanaf 0.
+		for ( GLushort &vertex_index : vertex_indices)
+			vertex_index--;
+		// zelfde voor texCoordinates
+		for ( GLushort &tci : texCoordinates_indices)
+			tci--;
+
+		// maak tex coordinates
+		vector<vmath::vec2> texCoordinates_final;
+		for (int i = 0; i < texCoordinates_indices.size(); ++i)
+			texCoordinates_final.push_back(texCoordinates[texCoordinates_indices[i]]);
+		texCoordinates = texCoordinates_final;
 	}
 
 
@@ -168,17 +226,25 @@ public:
 	void feedVertexData()
 	{
 		vector<vmath::vec4> vertices;
-		vector<GLushort> elements;
+		vector<vmath::vec3> vertexNormals;
+		vector<vmath::vec2> texCoordinates;
+		vector<GLushort> vertex_indices, texCoordinates_indices, normal_indices;
 
-		loadOBJ("/home/rick/Documenten/sb6code/bin/media/objects/aap.obj", vertices, elements);
+		loadOBJ("/home/rick/Documenten/sb6code/bin/media/objects/icosphere.obj", vertices,
+				vertexNormals, texCoordinates, vertex_indices);
 
 		std::cout << "vertices size: " << vertices.size() << endl;
-		std::cout << "elements size: " << elements.size() << endl;
+		std::cout << "vertexNormals size: " << vertexNormals.size() << endl;
+		std::cout << "texCoordinates size: " << texCoordinates.size() << endl;
+
+		std::cout << "vertex_indices size: " << vertex_indices.size() << endl;
+		std::cout << "texCoordinates_indices size: " << texCoordinates_indices.size() << endl;
+		std::cout << "normal_indices size: " << normal_indices.size() << endl;
 
 		// vraag om een vertex array object naam
 		glGenVertexArrays(1, &vao);
 		// met deze functie wordt dit vao aan de context gebonden
-	        glBindVertexArray(vao);
+		glBindVertexArray(vao);
 
 		/* buffer voor vertices */
 
@@ -188,7 +254,7 @@ public:
 		glBindBuffer(GL_ARRAY_BUFFER, vertices_buffer);
 		// vraag ruimte aan opengl voor de buffer
 		glBufferData(GL_ARRAY_BUFFER,
-				sizeof(std::vector<vmath::vec4>) + (sizeof(vmath::vec4) * vertices.size()),
+				vertices.size() * sizeof(vmath::vec4),
 				&vertices[0], // we geven meteen aan welke data er in moet. het kan ook met glbuffersubdata òf (~map.. nogwat?)
 				GL_STATIC_DRAW);
 
@@ -199,11 +265,21 @@ public:
 		glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, 0, NULL);
 		glEnableVertexAttribArray(0);
 
-		glGenBuffers(1, &elements_buffer);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, elements_buffer);
+		/* buffer voor vertex indices */
+
+		glGenBuffers(1, &vertex_indices_buffer);
+		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vertex_indices_buffer);
 		glBufferData(GL_ELEMENT_ARRAY_BUFFER,
-				sizeof(std::vector<GLushort>) + (sizeof(GLushort) * elements.size()),
-				&elements[0], // we geven meteen aan welke data er in moet. het kan ook met glbuffersubdata òf (~map.. nogwat?)
+				vertex_indices.size() * sizeof(GLushort),
+				&vertex_indices[0], // we geven meteen aan welke data er in moet. het kan ook met glbuffersubdata òf (~map.. nogwat?)
+				GL_STATIC_DRAW);
+
+		/* uv of texture coordinates */
+		glGenBuffers(1, &texCoordinates_buffer);
+		glBindBuffer(GL_ARRAY_BUFFER, texCoordinates_buffer);
+		glBufferData(GL_ARRAY_BUFFER,
+				sizeof(std::vector<GLushort>) + (sizeof(GLushort) * texCoordinates_indices.size()),
+				&texCoordinates[0],
 				GL_STATIC_DRAW);
 	}
 
@@ -250,10 +326,6 @@ public:
 				GL_FLOAT,
 				data);
 
-		/* wat opties voor texture filtering */
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-
 		delete[] data;
 	}
 
@@ -261,9 +333,6 @@ public:
 
 	virtual void render(double currentTime)
 	{
-		// print de currentTime value
-		/* std::cout << "Waarde currentTime: " << currentTime << std::endl; */
-
 		// viewport instellen
 		glViewport(0, 0, info.windowWidth, info.windowHeight);
 
@@ -280,7 +349,6 @@ public:
 		// roteer 90 graden via de x as, 90 graden via de y as, translatie in de diepte
 		// zodat de vierkant kleiner wordt
 		vmath::mat4 mv_matrix = vmath::translate(0.0f, 0.0f, -4.0f) *
-			/* vmath::rotate(90.0f, 0.0f, 1.0f, 0.0f) * */
 			vmath::rotate(180.0f, 0.0f, 1.0f, 0.0f) *
 			vmath::rotate((float)currentTime * 90.0f, -1.0f, 0.0f, 0.0f);
 
@@ -288,7 +356,7 @@ public:
 		glUniformMatrix4fv(mv_location, 1, GL_FALSE, mv_matrix);
 
 		// draw command
-		int elementBufferSize; glGetBufferParameteriv(GL_ELEMENT_ARRAY_BUFFER, GL_BUFFER_SIZE, &elementBufferSize);
+		int elementBufferSize; glGetBufferParameteriv(GL_ELEMENT_ARRAY_BUFFER, GL_BUFFER_SIZE, &elementBufferSize); // grootte van de ELEMENT_ARRAY_BUFFER opvragen
 		glDrawElements(GL_TRIANGLES, elementBufferSize/sizeof(GLushort), GL_UNSIGNED_SHORT, 0);
 	}
 
@@ -298,7 +366,7 @@ public:
 		glDeleteVertexArrays(1, &vao);
 		glDeleteProgram(program);
 		glDeleteBuffers(1, &vertices_buffer);
-		glDeleteBuffers(1, &elements_buffer);
+		glDeleteBuffers(1, &vertex_indices_buffer);
 		glDeleteTextures(1, &texture);
 	}
 
